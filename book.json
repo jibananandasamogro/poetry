@@ -1,0 +1,13 @@
+{
+    "title": "জীবনানন্দ দাশের কবিতাসগ্র",
+    "plugins": [
+        "disqus",
+        "search",
+        "expandable-chapters"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "jibanananda"
+        }
+    }
+}

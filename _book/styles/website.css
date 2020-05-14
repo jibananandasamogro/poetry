@@ -1,0 +1,8 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css);
+@font-face {
+    font-family: myfont;
+    src: url(NotoSansBengali-Regular.ttf);
+}
+* {
+  font-family: myfont;
+}
