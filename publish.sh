@@ -1,5 +1,5 @@
 # install the plugins and build the static site
-rm -rf _book/*
+rm -rf _book/
 
 gitbook install && gitbook build
 
