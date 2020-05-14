@@ -1,9 +1,5 @@
 # install the plugins and build the static site
-rm _book/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
-
-rm _book/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
-
-rm _book/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
+rm rf _book
 
 gitbook install && gitbook build
 
