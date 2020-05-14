@@ -12,15 +12,14 @@ rm ebooks/জীবনানন্দ-দাশের-কবিতাসমগ�
 rm ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
 
 rm ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
-
 # Generate a PDF file
-gitbook pdf ./ ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
+gitbook pdf ./ ./ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
 
 # Generate an ePub file
-gitbook epub ./ ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
+gitbook epub ./ ./ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
 
 # Generate a Mobi file
-gitbook mobi ./ ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
+gitbook mobi ./ ./ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
 
 
 # checkout to the gh-pages branch
@@ -49,4 +48,4 @@ git commit -a -m "Update Book"
 git push -u origin master
 
 # checkout to the master branch
-git checkout master 
+git checkout master
