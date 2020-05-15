@@ -5,8 +5,7 @@
         "search",
         "expandable-chapters",
         "rss",
-        "thumbnail",
-        "open-graph"
+        "meta"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -22,13 +21,9 @@
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
         },
-        "thumbnail": {
-            "path": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
-        },
-        "open-graph": {
-            "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
-            "defaultDescription": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
-            "defaultImage": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
+        "meta": {
+            "property": "og:image",
+            "content": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
         }
     }
 }
