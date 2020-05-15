@@ -5,7 +5,7 @@
         "search",
         "expandable-chapters",
         "rss",
-        "scripts"
+        "open-graph"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -21,10 +21,10 @@
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
         },
-        "scripts": {
-            "files": [
-                "./custom.js"
-            ]
+        "open-graph": {
+            "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
+            "defaultDescription": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
+            "defaultImage": "https://কবিতা.জীবনানন্দ.বাংলা/jibanananda.jpg"
         }
     }
 }
