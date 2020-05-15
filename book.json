@@ -24,7 +24,7 @@
         "open-graph": {
             "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
             "defaultDescription": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
-            "defaultImage": "https://কবিতা.জীবনানন্দ.বাংলা/jibanananda.jpg"
+            "defaultImage": "jibanananda.jpg"
         }
     }
 }

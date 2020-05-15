@@ -1,5 +1,11 @@
 # install the plugins and build the static site
-gitbook build
+rm _book/ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
+
+rm _book/ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
+
+rm _book/ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
+
+gitbook install && gitbook build
 
 rm ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
 
@@ -29,7 +35,7 @@ cp -R _book/* .
 cp favicon.ico gitbook/images
 cp apple-touch-icon-precomposed-152.png gitbook/images
 # remove 'node_modules' and '_book' directory
-# git clean -fx node_modules
+git clean -fx node_modules
 git clean -fx _book
 
 # add all files
