@@ -3,11 +3,21 @@
     "plugins": [
         "disqus",
         "search",
-        "expandable-chapters"
+        "expandable-chapters",
+        "rss"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "jibanananda"
+        },
+        "rss": {
+            "title": "জীবনানন্দ দাশের কবিতাসমগ্র",
+            "description": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
+            "author": "জীবনানন্দ দাশ",
+            "site_url": "https://জীবনানন্দ.বাংলা",
+            "managingEditor": "roy@utsargo.me (উৎসর্গ রায়)",
+            "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
+            "categories": []
         }
     }
 }
