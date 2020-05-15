@@ -15,14 +15,14 @@
             "title": "জীবনানন্দ দাশের কবিতাসমগ্র",
             "description": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
             "author": "জীবনানন্দ দাশ",
-            "site_url": "https://কবিতা.জীবনানন্দ.বাংলা",
-            "feed_url": "https://কবিতা.জীবনানন্দ.বাংলা/feed",
+            "site_url": "https://xn--p5b4axa7ed.xn--w5bufaav1kna6j.xn--54b7fta0cc",
+            "feed_url": "https://xn--p5b4axa7ed.xn--w5bufaav1kna6j.xn--54b7fta0cc/feed",
             "managingEditor": "roy@utsargo.me (উৎসর্গ রায়)",
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
         },
         "open-graph": {
-            "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
+            "baseURL": "https://xn--p5b4axa7ed.xn--w5bufaav1kna6j.xn--54b7fta0cc",
             "defaultDescription": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
             "defaultImage": "jibanananda.jpg"
         }
