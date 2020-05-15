@@ -4,8 +4,7 @@
         "disqus",
         "search",
         "expandable-chapters",
-        "rss",
-        "open-graph"
+        "rss"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -20,10 +19,6 @@
             "managingEditor": "roy@utsargo.me (উৎসর্গ রায়)",
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
-        },
-        "open-graph": {
-            "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
-            "defaultImage": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
         }
     }
 }
