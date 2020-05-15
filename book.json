@@ -5,7 +5,7 @@
         "search",
         "expandable-chapters",
         "rss",
-        "meta"
+        "scripts"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -21,9 +21,10 @@
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
         },
-        "meta": {
-            "property": "og:image",
-            "content": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
+        "scripts": {
+            "files": [
+                "./custom.js"
+            ]
         }
     }
 }
