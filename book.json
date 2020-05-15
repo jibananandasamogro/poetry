@@ -5,7 +5,8 @@
         "search",
         "expandable-chapters",
         "rss",
-        "thumbnail"
+        "thumbnail",
+        "open-graph"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -23,6 +24,11 @@
         },
         "thumbnail": {
             "path": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
+        },
+        "open-graph": {
+            "baseURL": "https://কবিতা.জীবনানন্দ.বাংলা",
+            "defaultDescription": "জীবনানন্দ দাশের কবিতার অনলাইন সমগ্র",
+            "defaultImage": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
         }
     }
 }
