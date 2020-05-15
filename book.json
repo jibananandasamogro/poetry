@@ -4,7 +4,8 @@
         "disqus",
         "search",
         "expandable-chapters",
-        "rss"
+        "rss",
+        "thumbnail"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -19,6 +20,9 @@
             "managingEditor": "roy@utsargo.me (উৎসর্গ রায়)",
             "webMaster": "roy@utsargo.me (উৎসর্গ রায়)",
             "categories": []
+        },
+        "thumbnail": {
+            "path": "https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/jibanananda.jpg"
         }
     }
 }
