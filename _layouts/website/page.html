@@ -60,15 +60,14 @@
                             class="navigation navigation-prev {% if not (page.next and page.next.path) %}navigation-unique{% endif %}"
                             aria-label="Previous page: {{ page.previous.title }}">
                             <i class="fa fa-angle-left"></i><span class="navTitle">
-                                {{ page.previous.title }}</span><span class="navTitle-m"> পূর্ববর্তী</span>
+                                {{ page.previous.title }}</span>
                         </a>
                         {% endif %}
                         {% if page.next and page.next.path %}
                         <a href="{{ page.next.path|resolveFile }}{{ page.next.anchor }}"
                             class="navigation navigation-next {% if not (page.previous and page.previous.path) %}navigation-unique{% endif %}"
                             aria-label="Next page: {{ page.next.title }}">
-                            <span class="navTitle">{{ page.next.title }} </span><span class="navTitle-m">পরবর্তী
-                            </span><i class="fa fa-angle-right"></i>
+                            <span class="navTitle">{{ page.next.title }} </span><i class="fa fa-angle-right"></i>
                         </a>
                         {% endif %}
                         {% endblock %}

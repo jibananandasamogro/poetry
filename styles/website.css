@@ -90,10 +90,4 @@
     display: none;
   }
 }
-
-@media screen and (min-width: 641px) {
-  .navTitle-m {
-    display: none;
-  }
-}
 /*# sourceMappingURL=website.css.map */
