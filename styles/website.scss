@@ -26,7 +26,6 @@
     align-items: center;
 
     .navigation {
-        font-size: 20px;
         position: relative;
         /* top: 50px; */
         bottom: 0;
@@ -37,7 +36,7 @@
         justify-content: space-between;
         /* align-content: center; */
         flex-direction: row;
-        font-size: 40px;
+        font-size: 24px;
         color: rgb(68, 67, 67);
         text-align: center;
         transition: 350ms ease;
@@ -50,13 +49,8 @@
         &:hover{
             box-shadow: 1px 2px 4px lightgreen;
             border: 1px solid limegreen;
-            .fa{
-               
-                    color: #212020;
-            }
-            .navTitle{
-                color: limegreen;
-            }
+            color: limegreen;
+            
         }
         
             

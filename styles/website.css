@@ -39,7 +39,6 @@
 }
 
 .bookNavigation .navigation {
-  font-size: 20px;
   position: relative;
   /* top: 50px; */
   bottom: 0;
@@ -57,7 +56,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 40px;
+  font-size: 24px;
   color: #444343;
   text-align: center;
   -webkit-transition: 350ms ease;
@@ -77,13 +76,6 @@
   -webkit-box-shadow: 1px 2px 4px lightgreen;
           box-shadow: 1px 2px 4px lightgreen;
   border: 1px solid limegreen;
-}
-
-.bookNavigation .navigation:hover .fa {
-  color: #212020;
-}
-
-.bookNavigation .navigation:hover .navTitle {
   color: limegreen;
 }
 
