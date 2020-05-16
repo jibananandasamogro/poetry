@@ -102,13 +102,10 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
 .smallText {
-  font-size: small;
+  font-size: 12px;
 }
 
 #disqus_thread {
