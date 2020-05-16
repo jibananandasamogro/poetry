@@ -7,9 +7,6 @@
         "rss",
         "open-graph"
     ],
-    "styles": {
-        "website": "styles/website.css"
-    },
     "pluginsConfig": {
         "disqus": {
             "shortName": "jibananandapoetryobnibus"
