@@ -49,7 +49,16 @@
         height: 55px;
         border-radius: 7px;
         box-shadow: 1px 1px 1px #80808063;
-
+        &:hover{
+            box-shadow: 1px 2px 4px #80808063;
+        }
+        a{
+            i{
+                &:hover{
+                    color: #212020;
+                }
+            }
+        }
         .navTitle{
             font-size: 16px;
             color: #212020;
