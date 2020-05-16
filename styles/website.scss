@@ -53,20 +53,18 @@
             
         }
         
-            
-    
-        .navTitle{
-            font-size: 16px;
-            color: #212020;
-            //margin-top: 5px;
-            
-        }
     }
 }
 .navText{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.navTitle{
+    font-size: 16px;
+    color: #212020;
+    //margin-top: 5px;
+    
 }
 .smallText{
     font-size: 12px;

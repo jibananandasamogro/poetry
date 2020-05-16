@@ -79,11 +79,6 @@
   color: limegreen;
 }
 
-.bookNavigation .navigation .navTitle {
-  font-size: 16px;
-  color: #212020;
-}
-
 .navText {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,6 +89,11 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.navTitle {
+  font-size: 16px;
+  color: #212020;
 }
 
 .smallText {
