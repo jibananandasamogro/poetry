@@ -79,17 +79,17 @@
   border: 1px solid limegreen;
 }
 
-.bookNavigation .navigation .fa:hover {
+.bookNavigation .navigation:hover .fa {
   color: #212020;
+}
+
+.bookNavigation .navigation:hover .navTitle {
+  color: limegreen;
 }
 
 .bookNavigation .navigation .navTitle {
   font-size: 16px;
   color: #212020;
-}
-
-.bookNavigation .navigation .navTitle:hover {
-  color: limegreen;
 }
 
 .navText {
