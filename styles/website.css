@@ -9,9 +9,13 @@
 }
 
 .normal.markdown-section {
-  background-image: url("bg-page.jpg");
-  background-position: center;
-  background-size: cover;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, rgba(249, 247, 240, 0.501961))) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, rgba(249, 247, 240, 0.501961) 8%) 0 4px;
+  background-size: 100% 20px;
+  padding: 50px;
+  -webkit-box-shadow: 1px 2px 5px 2px #b5b3b3d9;
+          box-shadow: 1px 2px 5px 2px #b5b3b3d9;
 }
 
 .bookNavigation {
@@ -28,6 +32,7 @@
           justify-content: space-between;
   position: relative;
   margin-bottom: 30px;
+  margin-top: 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -71,5 +76,24 @@
   font-size: 16px;
   color: #212020;
   margin-top: 5px;
+}
+
+#disqus_thread {
+  margin-top: 70px !important;
+}
+
+@media screen and (max-width: 640px) {
+  .normal.markdown-section {
+    padding: 30px;
+  }
+  .navTitle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .navTitle-m {
+    display: none;
+  }
 }
 /*# sourceMappingURL=website.css.map */
