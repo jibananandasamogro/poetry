@@ -60,7 +60,7 @@
                             class="navigation navigation-prev {% if not (page.next and page.next.path) %}navigation-unique{% endif %}"
                             aria-label="Previous page: {{ page.previous.title }}">
                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                            <div class="navText">
+                            <div class="navText" style="align-items: flex-start;">
                                 <div class="smallText">পূর্ববর্তী</div>
                                 <div class="navTitle">{{ page.previous.title }} </div>
                             </div>
@@ -70,8 +70,8 @@
                         <a href="{{ page.next.path|resolveFile }}{{ page.next.anchor }}"
                             class="navigation navigation-next {% if not (page.previous and page.previous.path) %}navigation-unique{% endif %}"
                             aria-label="Next page: {{ page.next.title }}">
-                            <div class="navText">
-                                <div class="smallText">পরবর্তী</div>
+                            <div class="navText" style="align-items: flex-start;">
+                                <div class="smallText" style="align-items: flex-start;">পরবর্তী</div>
                                 <div class="navTitle">{{ page.next.title }} </div>
                             </div><i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </a>

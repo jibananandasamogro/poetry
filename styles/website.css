@@ -57,7 +57,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   font-size: 40px;
-  color: #ccc;
+  color: #252424;
   text-align: center;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
@@ -80,12 +80,12 @@
 
 .bookNavigation .navigation .fa:hover {
   color: #212020;
+  font-size: 20px;
 }
 
 .bookNavigation .navigation .navTitle {
   font-size: 16px;
   color: #212020;
-  margin-top: 5px;
 }
 
 .bookNavigation .navigation .navTitle:hover {

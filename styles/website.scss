@@ -37,7 +37,7 @@
         /* align-content: center; */
         flex-direction: row;
         font-size: 40px;
-        color: #ccc;
+        color: rgb(37, 36, 36);
         text-align: center;
         -webkit-transition: all 350ms ease;
         -moz-transition: all 350ms ease;
@@ -57,13 +57,14 @@
             .fa{
                 &:hover{
                     color: #212020;
+                    font-size: 20px;
                 }
             }
     
         .navTitle{
             font-size: 16px;
             color: #212020;
-            margin-top: 5px;
+            //margin-top: 5px;
             &:hover{
                 color: limegreen;
             }
