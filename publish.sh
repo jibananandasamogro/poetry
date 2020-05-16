@@ -24,7 +24,7 @@ git pull origin master --rebase
 
 # copy the static site files into the current directory.
 # cp -R _book/* .
-rsync -av --progress _book . --exclude style
+rsync -av --progress _book . --exclude styles
 
 cp favicon.ico gitbook/images
 cp apple-touch-icon-precomposed-152.png gitbook/images
