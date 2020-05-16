@@ -26,6 +26,7 @@
     align-items: center;
 
     .navigation {
+        font-size: 20px;
         position: relative;
         /* top: 50px; */
         bottom: 0;
@@ -37,12 +38,9 @@
         /* align-content: center; */
         flex-direction: row;
         font-size: 40px;
-        color: rgb(37, 36, 36);
+        color: rgb(68, 67, 67);
         text-align: center;
-        -webkit-transition: all 350ms ease;
-        -moz-transition: all 350ms ease;
-        -o-transition: all 350ms ease;
-        transition: all 350ms ease;
+        transition: 350ms ease;
         align-items: center;
         border: 1px solid #80808087;
         padding: 5px 10px;
@@ -57,7 +55,7 @@
             .fa{
                 &:hover{
                     color: #212020;
-                    font-size: 20px;
+                    
                 }
             }
     
