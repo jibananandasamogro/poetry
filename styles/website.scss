@@ -22,7 +22,7 @@
     justify-content: space-between;
     position: relative;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: center;
 
     .navigation {
@@ -46,14 +46,15 @@
         align-items: center;
         border: 1px solid #80808087;
         padding: 5px 10px;
-        height: 55px;
+        height: 77px;
         border-radius: 7px;
         box-shadow: 1px 1px 1px #80808063;
         &:hover{
-            box-shadow: 1px 2px 4px #80808063;
+            box-shadow: 1px 2px 4px lightgreen;
+            border: 1px solid limegreen;
         }
         a{
-            i{
+            .fa{
                 &:hover{
                     color: #212020;
                 }
@@ -63,10 +64,21 @@
             font-size: 16px;
             color: #212020;
             margin-top: 5px;
+            &:hover{
+                color: limegreen;
+            }
         }
     }
 }
-
+.navText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.smallText{
+    font-size: small;
+}
 #disqus_thread{
     margin-top: 70px !important;
 }

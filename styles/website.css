@@ -32,7 +32,7 @@
           justify-content: space-between;
   position: relative;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -66,18 +66,19 @@
           align-items: center;
   border: 1px solid #80808087;
   padding: 5px 10px;
-  height: 55px;
+  height: 77px;
   border-radius: 7px;
   -webkit-box-shadow: 1px 1px 1px #80808063;
           box-shadow: 1px 1px 1px #80808063;
 }
 
 .bookNavigation .navigation:hover {
-  -webkit-box-shadow: 1px 2px 4px #80808063;
-          box-shadow: 1px 2px 4px #80808063;
+  -webkit-box-shadow: 1px 2px 4px lightgreen;
+          box-shadow: 1px 2px 4px lightgreen;
+  border: 1px solid limegreen;
 }
 
-.bookNavigation .navigation a i:hover {
+.bookNavigation .navigation a .fa:hover {
   color: #212020;
 }
 
@@ -85,6 +86,29 @@
   font-size: 16px;
   color: #212020;
   margin-top: 5px;
+}
+
+.bookNavigation .navigation .navTitle:hover {
+  color: limegreen;
+}
+
+.navText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.smallText {
+  font-size: small;
 }
 
 #disqus_thread {
