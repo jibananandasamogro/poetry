@@ -9,8 +9,11 @@
 <link rel="apple-touch-icon-precomposed" sizes="152x152"
     href="{{ "images/apple-touch-icon-precomposed-152.png"|resolveAsset }}">
 <link rel="shortcut icon" href="{{ "images/favicon.ico"|resolveAsset }}" type="image/x-icon">
-<meta property="og:image" content="jibanananda.jpg" {% endblock %} {% block style %}
-    {### Include theme css before plugins css ###} <link rel="stylesheet" href="{{ "style.css"|resolveAsset }}">
+<meta property="og:image" content="jibanananda.jpg">
+{% endblock %}
+{% block style %}
+{### Include theme css before plugins css ###}
+<link rel="stylesheet" href="{{ "style.css"|resolveAsset }}">
 
 {{ super() }}
 

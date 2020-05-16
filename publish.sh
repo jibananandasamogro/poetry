@@ -23,7 +23,7 @@ git checkout master
 git pull origin master --rebase
 
 # copy the static site files into the current directory.
-cp -R _book/ .
+cp -Rvf _book/* .
 # rsync -av --progress _book . --exclude styles
 
 cp favicon.ico gitbook/images
