@@ -3,8 +3,13 @@
     font-family: myfont;
     src: url(NotoSansBengali-Regular.ttf);
 }
+
+@font-face{
+    font-family: SolaimanLipi;
+    src: url(SolaimanLipi_20-04-07.ttf);
+}
 * {
-  font-family: myfont;
+  font-family: SolaimanLipi;
 }
 .normal.markdown-section{
     //background-image: url('bg.png');
