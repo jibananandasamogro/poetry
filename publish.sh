@@ -44,4 +44,4 @@ git push -u origin master
 # checkout to the master branch
 git checkout master
 
-git subtree push --prefix _book origin gh-pages
+git push origin `git subtree split --prefix _book master`:gh-pages --force
