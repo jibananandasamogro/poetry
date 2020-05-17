@@ -1,6 +1,5 @@
 {
     "title": "জীবনানন্দ দাশের কবিতাসগ্র",
-    "root": "_book",
     "plugins": [
         "disqus",
         "search",
