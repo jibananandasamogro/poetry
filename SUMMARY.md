@@ -45,7 +45,7 @@
  * [সারাটি রাত্রি তারাটির সাথে তারাটিরই কথা হয়](1.35.sarati-ratri.md)
 * [ধূসর পাণ্ডুলিপি](2.0.dhusor-pandulipi.md)
  * [নির্জন স্বাক্ষর](2.1.nirjon-sakkhor.md)
- * [মাঠের গল্প](2.2.0.metho-chand.md)
+ * [মাঠের গল্প](2.2.mather-golpo.md)
    * [মেঠো চাঁদ](2.2.0.metho-chand.md)
    * [পেঁচা](2.2.1.pencha.md)
    * [পঁচিশ বছর পরে](2.2.2.ponchish-bochor-pore.md)

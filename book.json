@@ -2,7 +2,6 @@
     "title": "জীবনানন্দ দাশের কবিতাসগ্র",
     "plugins": [
         "disqus",
-        "search",
         "expandable-chapters",
         "rss",
         "open-graph"
@@ -13,6 +12,9 @@
     "pluginsConfig": {
         "disqus": {
             "shortName": "jibananandapoetryobnibus"
+        },
+        "lunr": {
+            "maxIndexSize": 200000
         },
         "rss": {
             "title": "জীবনানন্দ দাশের কবিতাসমগ্র",

@@ -30,7 +30,11 @@
 <div class="book">
     <div class="book-summary">
         {% block book_sidebar %}
-        {% block search_input %}{% endblock %}
+        {% block search_input %}
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="এখানে খুঁজুন" />
+        </div>
+        {% endblock %}
         {% block book_summary %}
         <nav role="navigation">
             {% include "website/summary.html" %}
@@ -49,6 +53,24 @@
                 <div class="page-inner">
                     {% block search_results %}
                     <section class="normal markdown-section">
+                        <div id="book-search-results">
+                            <div class="search-noresults">
+                                {{ super() }}
+                            </div>
+                            <div class="search-results">
+                                <div class="has-results">
+                                    {% block search_has_results %}
+                                    <h1 class="search-results-title">ফলাফলসমুহ:</h1>
+                                    <ul class="search-results-list"></ul>
+                                    {% endblock %}
+                                </div>
+                                <div class="no-results">
+                                    {% block search_no_results %}
+                                    <h1 class="search-results-title">দুঃখিত। আপনি যা খুঁজছেন না পাওয়া যায়নি</h1>
+                                    {% endblock %}
+                                </div>
+                            </div>
+                        </div>
                         {% block page %}
                         {{ page.content|safe }}
                         {% endblock %}
