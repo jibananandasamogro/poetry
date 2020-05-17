@@ -23,14 +23,14 @@ git checkout master
 git pull origin master --rebase
 
 # copy the static site files into the current directory.
-cp -Rvf _book/* .
+# cp -Rvf _book/* .
 # rsync -av --progress _book . --exclude styles
 
 cp favicon.ico gitbook/images
 cp apple-touch-icon-precomposed-152.png gitbook/images
 # remove 'node_modules' and '_book' directory
 # git clean -fx node_modules
-git clean -fx _book
+# git clean -fx _book
 
 # add all files
 git add .
