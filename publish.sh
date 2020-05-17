@@ -15,7 +15,7 @@ gitbook epub ./ ./ebooks/জীবনানন্দ-দাশের-কবি�
 # Generate a Mobi file
 gitbook mobi ./ ./ebooks/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
 
-
+cp -Rvf ebooks _book
 # checkout to the gh-pages branch
 git checkout master
 
@@ -43,3 +43,5 @@ git push -u origin master
 
 # checkout to the master branch
 git checkout master
+
+git subtree push --prefix _book origin gh-pages
