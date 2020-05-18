@@ -53,28 +53,31 @@
                 <div class="page-inner">
                     {% block search_results %}
                     <section class="normal markdown-section">
-                        <div id="book-search-results">
-                            <div class="search-noresults">
-                                {{ super() }}
-                            </div>
-                            <div class="search-results">
-                                <div class="has-results">
-                                    {% block search_has_results %}
-                                    <h1 class="search-results-title">ফলাফলসমুহ:</h1>
-                                    <ul class="search-results-list"></ul>
-                                    {% endblock %}
+                        <div class="left-rull">
+                            <div id="book-search-results">
+                                <div class="search-noresults">
+                                    {{ super() }}
                                 </div>
-                                <div class="no-results">
-                                    {% block search_no_results %}
-                                    <h1 class="search-results-title">দুঃখিত। আপনি যা খুঁজছেন না পাওয়া যায়নি।</h1>
-                                    {% endblock %}
+                                <div class="search-results">
+                                    <div class="has-results">
+                                        {% block search_has_results %}
+                                        <h1 class="search-results-title">ফলাফলসমুহ:</h1>
+                                        <ul class="search-results-list"></ul>
+                                        {% endblock %}
+                                    </div>
+                                    <div class="no-results">
+                                        {% block search_no_results %}
+                                        <h1 class="search-results-title">দুঃখিত। আপনি যা খুঁজছেন না পাওয়া যায়নি।</h1>
+                                        {% endblock %}
+                                    </div>
                                 </div>
                             </div>
+                            {% block page %}
+                            {{ page.content|safe }}
+                            {% endblock %}
                         </div>
-                        {% block page %}
-                        {{ page.content|safe }}
-                        {% endblock %}
                     </section>
+
                     <div class="bookNavigation">
                         {% block book_navigation %}
                         {% if page.previous and page.previous.path %}
