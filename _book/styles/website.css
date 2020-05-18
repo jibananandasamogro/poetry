@@ -9,8 +9,13 @@
   src: url(SolaimanLipi_20-04-07.ttf);
 }
 
+@font-face {
+  font-family: Nikosh;
+  src: url(NikoshBAN.ttf);
+}
+
 * {
-  font-family: SolaimanLipi;
+  font-family: Nikosh;
 }
 
 .normal.markdown-section {
