@@ -5,7 +5,8 @@
         "expandable-chapters",
         "rss",
         "open-graph",
-        "scripts"
+        "scripts",
+        "sitemap"
     ],
     "styles": {
         "website": "styles/website.css"
@@ -38,6 +39,10 @@
             "files": [
                 "./scripts/custom.js"
             ]
+        },
+        "sitemap": {
+            "hostname": "https://xn--p5b4axa7ed.xn--w5bufaav1kna6j.xn--54b7fta0cc",
+            "pathPrefix": "/"
         }
     }
 }
