@@ -1,1 +1,0 @@
-$(".btn.pull-left.js-toolbar-action").append("<span> সূচি</span>");
