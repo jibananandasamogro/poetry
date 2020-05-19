@@ -111,6 +111,30 @@
 h1{
     margin: 0 !important;
 }
+.book-name-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 12px;
+}
+.book-thumb{
+    img{
+        height: 50px;
+    width: auto;
+    background: rgba(210, 207, 207, 0.9803921568627451);
+    padding: 3px;
+    border-radius: 4px;
+
+    }
+
+}
+.book-name{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
 // @media screen and (min-width:641px){
 //     .navTitle-m{
 //         display: none;

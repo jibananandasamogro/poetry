@@ -4,7 +4,8 @@
         "disqus",
         "expandable-chapters",
         "rss",
-        "open-graph"
+        "open-graph",
+        "scripts"
     ],
     "styles": {
         "website": "styles/website.css"
@@ -32,6 +33,11 @@
         },
         "fontsettings": {
             "size": 2
+        },
+        "scripts": {
+            "files": [
+                "./scripts/custom.js"
+            ]
         }
     }
 }
