@@ -18,19 +18,19 @@
   font-family: SolaimanLipi;
 }
 
+.page-wrapper {
+  background: rgba(138, 131, 131, 0.3);
+}
+
 .normal.markdown-section {
-  background: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, rgba(249, 247, 240, 0.501961))) 0 4px;
-  background: linear-gradient(top, #d9eaf3 0%, rgba(249, 247, 240, 0.501961) 8%) 0 4px;
-  background-size: 100% 20px;
+  background: url(https://xn--w5bufaav1kna6j.xn--54b7fta0cc/images/bg.png);
   padding: 50px;
   -webkit-box-shadow: 1px 2px 5px 2px #b5b3b3d9;
           box-shadow: 1px 2px 5px 2px #b5b3b3d9;
 }
 
 .left-rull {
-  padding: 0 0 0 10px;
-  border-left: 4px double #e0ecf1;
+  padding: 0px;
 }
 
 .bookNavigation {
@@ -85,6 +85,7 @@
   border-radius: 7px;
   -webkit-box-shadow: 1px 1px 1px #80808063;
           box-shadow: 1px 1px 1px #80808063;
+  background: #f5efef;
 }
 
 .bookNavigation .navigation:hover {
@@ -92,6 +93,10 @@
           box-shadow: 1px 2px 4px lightgreen;
   border: 1px solid limegreen;
   color: limegreen;
+}
+
+.bookNavigation .navigation-next {
+  margin-right: 0 !important;
 }
 
 .navText {
@@ -117,6 +122,8 @@
 
 #disqus_thread {
   margin-top: 70px !important;
+  background: whitesmoke;
+  padding: 10px 20px;
 }
 
 @media screen and (max-width: 640px) {
