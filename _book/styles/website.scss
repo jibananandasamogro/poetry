@@ -135,6 +135,19 @@ h1{
     font-weight: 600;
     margin-left: 10px;
 }
+.book-header{
+    .fa-align-justify{
+        &:after{
+            content: " সূচি" !important;
+        }
+    }
+    .fa-font:before {
+        content: "অ";
+        font-size: 16px !important;
+    }
+}
+
+
 // @media screen and (min-width:641px){
 //     .navTitle-m{
 //         display: none;
